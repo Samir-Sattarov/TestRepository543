@@ -24,7 +24,7 @@ class _ApplicationState extends State<Application> {
         return MaterialApp(
           title: "Test",
           theme: ThemeData(
-            useMaterial3: false,
+            useMaterial3: true,
           ),
           home: child,
         );
