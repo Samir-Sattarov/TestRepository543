@@ -29,7 +29,7 @@ class _ApplicationState extends State<Application> {
           home: child,
         );
       },
-      child: Container(),
+      child: HomeScreen(),
     );
   }
 }
