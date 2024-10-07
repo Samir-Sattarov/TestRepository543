@@ -22,7 +22,7 @@ class _ApplicationState extends State<Application> {
       splitScreenMode: false,
       builder: (context, child) {
         return MaterialApp(
-          title: "Test",
+          title: "Test app",
           theme: ThemeData(
             useMaterial3: true,
           ),
