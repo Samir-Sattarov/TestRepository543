@@ -24,12 +24,12 @@ class _ApplicationState extends State<Application> {
         return MaterialApp(
           title: "Test app",
           theme: ThemeData(
-            useMaterial3: true,
+            useMaterial3: false,
           ),
           home: child,
         );
       },
-      child: const HomeScreen(),
+      child: Container(),
     );
   }
 }
